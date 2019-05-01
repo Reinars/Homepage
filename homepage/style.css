@@ -1,0 +1,48 @@
+.mainbox{
+    background-color: aquamarine;
+    width: 800px;
+    margin: 0px auto;
+}
+.menu{
+    background-color: greenyellow;
+}
+.leftside{
+    background-color: sandybrown;
+    width: 100px;
+    float:left;
+}
+
+.main{
+    background-color: yellow;
+    width: 600px;
+    float: left;
+}
+
+.rightside{
+    background-color: sandybrown;
+    width: 100px;
+    float: left;
+}
+
+.footer{
+    background-color: dodgerblue;
+}
+
+.menu{
+    height:34px;
+    text-align: center;
+}
+
+.menu>ul>li{
+    display:inline;
+    padding:10px 10px 10px 10px;
+    background-color: lightgreen;
+    position: relative;
+    top: 8px;
+    font-family: Tahoma, serif;
+    font-size: 14px;
+}
+.menu>li>a{
+    text-decoration: none;
+    color: #fff;
+}
